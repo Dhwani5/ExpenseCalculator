@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/title"
+        android:background="@drawable/border"
+        android:layout_height="match_parent"
+        android:text="Note" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:background="@drawable/border"
+
+        android:textColor="#000"
+        android:layout_height="match_parent"
+        android:text="Amount" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:textColor="#000"
+        android:background="@drawable/border"
+
+        android:layout_height="match_parent"
+        android:text="Balance" />
+</LinearLayout>
